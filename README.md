@@ -1,15 +1,15 @@
 
 ### Requirements
 
-- Python 3.x
-- numpy
-- scikit-learn
-- RDKit
-- Tensorflow
-- keras
-- matplotlib
-- transformers
-- pandas
+- Python 3.8
+- numpy 1.22.0
+- scikit-learn 1.3.0
+- RDKit 2023.9.1
+- Tensorflow 2.13.1
+- keras 2.13.1
+- matplotlib 3.7.4
+- transformers 4.35.2
+- pandas 1.2.1
 
 ### Train (Association task)
 
