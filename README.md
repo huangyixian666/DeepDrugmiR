@@ -19,6 +19,6 @@ python CapBChemMoleFusion.py --dti stage1_dataset/ourdataset_association.csv --p
 
 python CapBChemMoleFusion.py --dti stage2_dataset/ourdataset_up.csv --protein-descripter bert --drug-descripter chemmolefusion --model-name bert_chemmolefusion_capsule --batch-size 64 -e 1000 -dp data -g 0 -sl 1024
 
-### Train (down-regulation task)
+### Train (Down-regulation task)
 
 python CapBChemMoleFusion.py --dti stage2_dataset/ourdataset_down.csv --protein-descripter bert --drug-descripter chemmolefusion --model-name bert_chemmolefusion_capsule --batch-size 64 -e 1000 -dp data -g 0 -sl 1024
